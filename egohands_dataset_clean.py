@@ -219,7 +219,7 @@ def download_egohands_dataset(dataset_url, dataset_path):
         opener = urllib.request.URLopener()
         opener.retrieve(dataset_url, dataset_path)
         print("> download complete")
-        extract_folder(dataset_path);
+        extract_folder(dataset_path)
 
     else:
         extract_folder(dataset_path)
